@@ -10,4 +10,6 @@ Because of that, sending an **instruction** to a **program** requires providing 
 
 Similarly to how we defined our `Tweet` account, contexts are implemented using a `struct`. Within that `struct`, we should list all the `accounts` that are necessary for the `instruction` to do its job.
 
+![](../img/solana_program_high_to_low_level_interaction.png)
+
 In your `lib.rs` file, just above the `Tweet` struct we defined in the previous episode, you should see an empty `Initialize` context.
